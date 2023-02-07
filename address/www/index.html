@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Address Test</title>
+    </head>
+    <body>
+        <h1>ADDRESS TEST</h1>
+        <input type="text" id="postcode" placeholder="우편번호" />
+        <button id="search-button">우편번호 찾기</button><br>
+        <input type="text" id="address" placeholder="주소" /><br>
+        <input type="text" id="detailAddress" placeholder="상세주소" />
+        <input type="text" id="extraAddress" placeholder="참고항목" />
+
+        <button id="submit">제출</button> <br>
+
+        <h1>RESULT</h1>
+        <div id="result-box">
+
+        </div>
+        
+
+        <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+        <script src="/app.js"></script>
+    </body>
+</html>
