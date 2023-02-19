@@ -1,0 +1,59 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.index-body-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+}
+.index-body-container h1 {
+  color: white;
+}
+.index-body-container a {
+  display: block;
+  text-decoration: none;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: darkgreen;
+}
+
+.chart-body-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+}
+.chart-body-container .side-nav {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.chart-body-container .side-nav a {
+  display: block;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: black;
+}
+.chart-body-container .content-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 200px);
+  padding: 20px;
+}
+.chart-body-container .content-container .chart-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
